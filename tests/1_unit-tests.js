@@ -10,7 +10,7 @@ const highlighter = (string) => {
 
 
 suite('Unit Tests', () => {
-    suite("Translate to British English", () => {
+    suite.only("Translate to British English", () => {
 
         test("Translate Mangoes are my favorite fruit. to British English", () => {
             const translated = t.toBritish("Mangoes are my favorite fruit.");
